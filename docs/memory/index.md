@@ -12,6 +12,11 @@
 | 配图：朋友圈黑底字卡，小红书明亮色 | ADR-002 | 同上 |
 | 不要"扣1私信"钩子 | ADR-001 | 同上 |
 
+## 跨仓库协作
+
+5个仓库分工：self-media-ops（发布层）→ heritage-ai-video-sop（生产层）→ multiplatform-content-pipeline（管道层）→ ai-intel-monitor（情报层）→ accounting-kb（治理参考）。
+详见 → [repo-map.md](repo-map.md)
+
 ## 待验证
 
 - AI做珠宝视频的商业可用性（火彩/反光不准）
