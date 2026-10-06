@@ -11,6 +11,7 @@
 ## 2. 执行前必读：冷启动 vs 续接
 
 ### 冷启动（首次接触本项目/跨阶段切换）
+0. **本仓＝鉴藏体系意图层（策略总控）**：业务方向/选题/优先级以 `docs/SYSTEM_STRATEGY.md` 为唯一权威；系统运行机制/路由在采集底座 `~/Desktop/multiplatform-content-pipeline/docs/SYSTEM_ARCHITECTURE.md`
 1. `README.md` — 项目概览
 2. `docs/memory/index.md` — 跨会话稳定结论
 3. `project-management/TASK_STATUS.md` — 当前进度
