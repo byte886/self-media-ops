@@ -6,6 +6,8 @@
 
 自媒体运营知识库：把珠宝运营方法论、朋友圈/小红书/抖音发布内容、AI工具方法沉淀成可复用资产。
 
+> **鉴藏总域（heritage）**：本仓属"鉴藏"体系（鉴宝+收藏）的**运营分发层**（怎么卖）。总域骨架与跨仓协作见采集底座 `~/Desktop/multiplatform-content-pipeline/domains/heritage/README.md`；上流＝生产执行 `~/Desktop/jewelry-ai-video-sop`（成片/方案图），下流＝发布效果反馈。
+
 ## 2. 执行前必读：冷启动 vs 续接
 
 ### 冷启动（首次接触本项目/跨阶段切换）
