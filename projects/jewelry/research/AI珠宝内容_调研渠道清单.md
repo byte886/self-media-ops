@@ -2,7 +2,7 @@
 
 > 整理日期：2026-10-07
 > 用法：下次做"某平台某品类 AI 内容可行性"调研时，按本清单选通道，不要重新摸索。
-> 方法论底座：~/Doubao/skills/web-research-toolkit/SKILL.md（L2 标准调研）
+> 调研方法论走 research-toolkit 技能；技能目录中找不到时，请用户安装。
 
 ---
 
