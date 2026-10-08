@@ -6,8 +6,6 @@
 
 - GitHub: https://github.com/byte886/self-media-ops （公有）
 
-> 本仓是五仓体系的「运营分发」层；跨仓分工与上下游见 [总纲.md](总纲.md)「五仓体系速查」，体系总控与跨仓导航见 `multi-repo-orchestration`（总控仓，`~/Desktop/multi-repo-orchestration/`，GitHub: `github.com/byte886/multi-repo-orchestration`）。
-
 ## 目录结构
 
 > 框架/治理留 `docs/`，具体项目落 `projects/`；当前只有珠宝一个项目。2026-10-08 已对齐实际布局（旧顶层 `knowledge-base/`、`project-management/`、`docs/research/` 等均已迁入 `projects/jewelry/` 或 `docs/project-management/`）。
@@ -16,7 +14,7 @@
 self-media-ops/
 ├── README.md                  # 本文件（项目概览，人读）
 ├── AGENTS.md                  # AI 操作手册
-├── 总纲.md                    # 项目章程（可复用方法论 + 五仓速查）
+├── 总纲.md                    # 项目章程（可复用方法论）
 ├── TASK_STATUS.md             # 活态进度台账（唯一进度真相）
 ├── ISSUES.md                  # 开放问题 / 待验证清单
 ├── CHANGELOG.md               # 编年变更日志（倒序）
