@@ -19,7 +19,7 @@
 
 | ID | 项 | 状态 | 来源 / 备注 |
 |----|----|------|------|
-| I-001 | AI 生成珠宝视频的商业可用性：火彩/反光/佩戴比例不准，目前只适合氛围片、不适合产品展示 | 待验证 | [memory/index.md](docs/project-management/memory/index.md) + [standards/踩坑记录.md](docs/project-management/standards/踩坑记录.md)；对照 ai-video-studio 三档流水线后拍板 |
+| I-001 | AI 生成珠宝视频的商业可用性：火彩/反光/佩戴比例不准，目前只适合氛围片、不适合产品展示 | 待验证 | [memory/index.md](docs/project-management/memory/index.md) + [standards/踩坑记录.md](docs/project-management/standards/踩坑记录.md)；对照 video-studio 三档流水线后拍板 |
 | I-002 | 小红书封面具体配色方案：调研说避免大面积灰黑、需亮色调，但定稿配色未定 | 待验证 | memory 待验证 + 踩坑记录（"小红书封面不能用黑底"） |
 | I-003 | 抖音内容是否需要真人出镜：与 ADR-004"不出镜"有张力，25-45 秒纯产品怼光片能否撑住抖音完播率待实测 | 待验证 | memory 待验证；ADR-004 已定不出镜，本条是效果侧待验证，不推翻决策 |
 

@@ -3,6 +3,11 @@
 > 格式：`YYYY-MM-DD ［类型］一句话（影响/依据）`；类型 = 新增/变更/修复/废弃/移除。
 > 所有显著变更在此记一条；活态进度看 [TASK_STATUS.md](TASK_STATUS.md)，问题看 [ISSUES.md](ISSUES.md)。
 
+## 2026-10-09
+
+- ［新增］挂载体系子模块聚合 `deps/`（用户拍板"直接用 submodule"）：trend-radar（③ 情报雷达）/ control-tower（总控）/ pipeline（① 采集底座）/ video-studio（④ 生产执行）以 git submodule 纳入本仓，实现驱动方单一工作区；`deps/README.md` 记录清单/使用/纪律（情报以最新为准 → 使用前 `submodule update --remote --merge`）。
+- ［变更］指针同步：生产仓引用 `ai-video-studio → video-studio`（AGENTS/ISSUES/repo-map 三处）。
+
 ## 2026-10-08
 
 - ［新增］治理三件套补全（本次）：新建根目录 `TASK_STATUS.md`（活态进度台账，唯一进度真相）、`ISSUES.md`（待验证/文档漂移/脚本与账号状态）、本 `CHANGELOG.md`。此前 README/AGENTS/DOCUMENTATION_MAP/WORKFLOW 多处引用 TASK_STATUS/ISSUES 但全仓不存在，本次补齐。

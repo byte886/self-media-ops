@@ -1,0 +1,12 @@
+[submodule "deps/trend-radar"]
+	path = deps/trend-radar
+	url = git@github.com:byte886/trend-radar.git
+[submodule "deps/control-tower"]
+	path = deps/control-tower
+	url = git@github.com:byte886/control-tower.git
+[submodule "deps/video-studio"]
+	path = deps/video-studio
+	url = git@github.com:byte886/video-studio.git
+[submodule "deps/pipeline"]
+	path = deps/pipeline
+	url = git@github.com:byte886/multiplatform-content-pipeline.git

@@ -6,7 +6,7 @@
 
 自媒体运营知识库：把珠宝运营方法论、朋友圈/小红书/抖音发布内容、AI工具方法沉淀成可复用资产。
 
-> **鉴藏总域（heritage）**：本仓发布的内容成片/方案图来自生产仓 ai-video-studio（`~/Desktop/ai-video-studio`）。
+> **鉴藏总域（heritage）**：本仓发布的内容成片/方案图来自生产仓 video-studio（`~/Desktop/video-studio`）。
 
 ## 2. 执行前必读：冷启动 vs 续接
 
