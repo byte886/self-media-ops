@@ -10,45 +10,52 @@
 
 ## 目录结构
 
+> 框架/治理留 `docs/`，具体项目落 `projects/`；当前只有珠宝一个项目。2026-10-08 已对齐实际布局（旧顶层 `knowledge-base/`、`project-management/`、`docs/research/` 等均已迁入 `projects/jewelry/` 或 `docs/project-management/`）。
+
 ```
 self-media-ops/
-├── README.md                    # 本文件
-├── AGENTS.md                    # AI操作手册
-├── project-management/           # 任务跟踪
-│   ├── TASK_STATUS.md          # 进度与待办
-│   └── ISSUES.md                # 问题与坑
+├── README.md                  # 本文件（项目概览，人读）
+├── AGENTS.md                  # AI 操作手册
+├── 总纲.md                    # 项目章程（可复用方法论 + 五仓速查）
+├── TASK_STATUS.md             # 活态进度台账（唯一进度真相）
+├── ISSUES.md                  # 开放问题 / 待验证清单
+├── CHANGELOG.md               # 编年变更日志（倒序）
 │
-├── docs/                        # 文档区
-│   ├── SYSTEM_STRATEGY.md       # 业务方向（唯一权威）
-│   ├── D1_三平台发布完整包.md    # ← 当前在执行的D1
-│   ├── 第一周执行计划_每天带参考.md  # ← 第一周计划
-│   ├── 珠宝自媒体_需求与调研规范.md  # 调研方法论
-│   ├── sops/                    # 操作指南（可复用）
-│   │   ├── 朋友圈写作SOP.md
-│   │   └── AI味检查SOP.md
-│   ├── decisions/                # 决策记录（ADR）
-│   ├── 执行脚本/                # 每日发布脚本
-│   ├── AI内容调研/              # AI生成内容调研
-│   ├── research/                # 调研档案
-│   │   ├── 线上优先/             # 线上获客调研
-│   │   └── ...                  # 其他调研
-│   └── archive/                  # 归档（旧版本，不删）
-│       ├── 旧版执行计划/         # 24个历史方案
-│       ├── 旧版PDF/
-│       └── 旧版Word/
+├── docs/                      # 框架与治理（跨项目复用，不随项目变）
+│   ├── SYSTEM_STRATEGY.md     # 业务方向（唯一权威）
+│   ├── WORKFLOW.md            # 主工作流（选题→复盘 8 步）
+│   ├── REQUIREMENTS.md        # 珠宝项目需求与验收标准
+│   ├── DOCUMENTATION_MAP.md   # 全仓文档地图
+│   ├── sops/                  # 可复用操作指南
+│   │   ├── AI味检查SOP.md
+│   │   └── 朋友圈写作SOP.md
+│   └── project-management/    # 治理档案
+│       ├── decisions/         # ADR 决策记录（001~005）
+│       ├── memory/            # OKF 跨会话稳定结论（index + repo-map）
+│       ├── standards/         # 规范（合规检查清单 / 不AI化 / 踩坑记录）
+│       └── templates/         # 模板（每日脚本模板）
 │
-├── knowledge-base/              # 知识库（跨项目复用）
-│   ├── 珠宝小红书运营知识库_合并版.md  # ← 核心运营手册
-│   ├── 泉泉珠宝资料宝典/          # 8篇PDF+5个表格模板
-│   ├── 超级标020_OCR全文.md      # 亦仁原文
-│   ├── 朋友圈系列/              # 朋友圈AI工作台系列
-│   ├── 收藏沉淀_小红书.md
-│   ├── 收藏沉淀_抖音.md
-│   ├── 数字人与AI内容合规_搜索引擎选型.md
-│   ├── 配图/                     # 已生成配图
-│   └── 产品素材/供应商样品/      # 7个视频+1张图
+├── projects/                  # 具体项目（每项目一目录）
+│   └── jewelry/               # 琛盛堂翡翠（襄阳）—— 当前主线
+│       ├── knowledge-base/    # 运营知识库（合并版 + 泉泉宝典 + 素材）
+│       │   ├── 泉泉珠宝资料宝典/   # PDF/表格/OCR md（README 索引）
+│       │   └── 产品素材/供应商样品/ # 7 视频 + 1 图
+│       ├── research/          # 调研档案（三平台规则 + 案例 + AI 内容调研）
+│       │   └── 线上优先/      # 纯线上获客专题
+│       ├── platforms/         # 平台执行（脚本/对标/产出）
+│       │   ├── D1-D7_珠宝冷启动第一周.md   # ← 当前在执行的第一周包
+│       │   ├── 参考对象_第一周对标账号.md
+│       │   ├── shipinhao/      # 视频号产出（待填）
+│       │   ├── xiaohongshu/    # 小红书产出（待填）
+│       │   └── douyin/         # 抖音产出（待填）
+│       └── archive/           # 归档（旧版本，不删）
+│           ├── 旧版执行计划/  # 24 个历史方案
+│           ├── 旧版PDF/
+│           └── 旧版Word/
 │
-└── scripts/                     # 浏览器自动化脚本
+└── scripts/                   # 浏览器自动化（小红书养号/浏览，attach 本机 Chrome）
+    ├── scan_xhs.js
+    └── human_browse_xhs.js
 ```
 
 ## 当前项目：琛盛堂翡翠（襄阳）
@@ -62,6 +69,6 @@ self-media-ops/
 
 ```bash
 cd ~/Desktop/self-media-ops
-git add -A && git commit -m "说明" && git push
-cat project-management/TASK_STATUS.md
+git add <具体文件> && git commit -m "说明" && git push
+cat TASK_STATUS.md   # 进度台账（根目录）
 ```
