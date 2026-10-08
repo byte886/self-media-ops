@@ -6,6 +6,8 @@
 
 - GitHub: https://github.com/byte886/self-media-ops （公有）
 
+> 本仓是五仓体系的「运营分发」层；跨仓分工与上下游见 [总纲.md](总纲.md)「五仓体系速查」，体系总控与跨仓导航见 `system-architecture`（总控仓，`~/Desktop/system-architecture/`，GitHub: `github.com/byte886/system-architecture`）。
+
 ## 目录结构
 
 ```
