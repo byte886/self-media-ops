@@ -6,12 +6,12 @@
 
 自媒体运营知识库：把珠宝运营方法论、朋友圈/小红书/抖音发布内容、AI工具方法沉淀成可复用资产。
 
-> **鉴藏总域（heritage）**：本仓属"鉴藏"体系（鉴宝+收藏）的**运营分发层**（怎么卖）。总域骨架与跨仓协作见采集底座 `~/Desktop/multiplatform-content-pipeline/domains/heritage/README.md`；上流＝生产执行 `~/Desktop/ai-video-studio`（成片/方案图），下流＝发布效果反馈。
+> **鉴藏总域（heritage）**：本仓发布的内容成片/方案图来自生产仓 ai-video-studio（`~/Desktop/ai-video-studio`）。
 
 ## 2. 执行前必读：冷启动 vs 续接
 
 ### 冷启动（首次接触本项目/跨阶段切换）
-0. **本仓＝鉴藏体系意图层（策略总控）**：业务方向/选题/优先级以 `docs/SYSTEM_STRATEGY.md` 为唯一权威；系统运行机制/路由在采集底座 `~/Desktop/multiplatform-content-pipeline/docs/SYSTEM_ARCHITECTURE.md`
+0. **本仓＝鉴藏体系意图层（策略总控）**：业务方向/选题/优先级以 `docs/SYSTEM_STRATEGY.md` 为唯一权威
 1. `README.md` — 项目概览
 2. `docs/memory/index.md` — 跨会话稳定结论
 3. `project-management/TASK_STATUS.md` — 当前进度
