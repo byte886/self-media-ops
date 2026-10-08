@@ -7,7 +7,7 @@
 | 仓库 | 位置 | 职责 | GitHub |
 |------|------|------|--------|
 | **self-media-ops** | `~/Desktop/self-media-ops/` | **内容发布层**：朋友圈/小红书/抖音的文案策略、写作SOP、AI味质检、运营知识库 | byte886/self-media-ops |
-| **heritage-ai-video-sop** | `~/Desktop/heritage-ai-video-sop/` | **生产执行层**：珠宝AI出图/出视频SOP、导演思维、音频、五门禁质检 | byte886/heritage-ai-video-sop |
+| **ai-video-studio** | `~/Desktop/ai-video-studio/` | **生产执行层**：珠宝AI出图/出视频SOP、导演思维、音频、五门禁质检 | byte886/ai-video-studio |
 | **multiplatform-content-pipeline** | `~/Desktop/multiplatform-content-pipeline/` | **技能管道层**：多平台视频下载/转写/效果分析的通用技能 | byte886/multiplatform-content-pipeline |
 | **ai-intel-monitor** | `~/Desktop/ai-intel-monitor/` | **情报监控层**：AI工具/珠宝营销渠道监控、定时更新 | byte886/ai-intel-monitor |
 | **accounting-kb** | `~/Desktop/accounting-kb/` | **治理方法论参考**：README/AGENTS/docs/project-management 分层、Diátaxis文档分类、质量保证清单 | byte886/accounting-kb |
@@ -19,14 +19,14 @@ ai-intel-monitor（情报：看什么/去哪看）
         ↓ 发现新工具/新方法
 multiplatform-content-pipeline（管道：下载/转写/分析）
         ↓ 提取出SOP
-heritage-ai-video-sop（生产：出图/出视频/质检）
+ai-video-studio（生产：出图/出视频/质检）
         ↓ 产出素材
 self-media-ops（发布：文案策略/AI味质检/运营知识）
         ↑ 治理规范参考
 accounting-kb（怎么治理/怎么写文档）
 ```
 
-## 从 heritage-ai-video-sop 继承的关键方法论
+## 从 ai-video-studio 继承的关键方法论
 
 这些已经在生产仓验证过，self-media-ops 直接引用，不重复造：
 

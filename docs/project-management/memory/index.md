@@ -14,7 +14,7 @@
 
 ## 跨仓库协作
 
-5个仓库分工：self-media-ops（发布层）→ heritage-ai-video-sop（生产层）→ multiplatform-content-pipeline（管道层）→ ai-intel-monitor（情报层）→ accounting-kb（治理参考）。
+5个仓库分工：self-media-ops（发布层）→ ai-video-studio（生产层）→ multiplatform-content-pipeline（管道层）→ ai-intel-monitor（情报层）→ accounting-kb（治理参考）。
 详见 → [repo-map.md](repo-map.md)
 
 ## 待验证
