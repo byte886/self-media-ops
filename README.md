@@ -1,17 +1,17 @@
-# self-media-ops
+# we-media-ops
 
 > 自媒体运营知识库与发布素材库。不限行业，框架可复用。
 
 ## 仓库地址
 
-- GitHub: https://github.com/byte886/self-media-ops （公有）
+- GitHub: https://github.com/byte886/we-media-ops （公有）
 
 ## 目录结构
 
 > 框架/治理留 `docs/`，具体项目落 `projects/`；当前只有珠宝一个项目。2026-10-08 已对齐实际布局（旧顶层 `knowledge-base/`、`project-management/`、`docs/research/` 等均已迁入 `projects/jewelry/` 或 `docs/project-management/`）。
 
 ```
-self-media-ops/
+we-media-ops/
 ├── README.md                  # 本文件（项目概览，人读）
 ├── AGENTS.md                  # AI 操作手册
 ├── 总纲.md                    # 项目章程（可复用方法论）
@@ -66,7 +66,7 @@ self-media-ops/
 ## 常用操作
 
 ```bash
-cd ~/Desktop/self-media-ops
+cd ~/Desktop/we-media-ops
 git add <具体文件> && git commit -m "说明" && git push
 cat TASK_STATUS.md   # 进度台账（根目录）
 ```

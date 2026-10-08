@@ -25,7 +25,7 @@
 ## 3. 目录结构
 
 ```
-self-media-ops/
+we-media-ops/
 ├── README.md                 # 项目介绍（人读）
 ├── AGENTS.md                 # 本文件（AI读）
 ├── knowledge-base/           # 知识库内容
@@ -63,7 +63,7 @@ self-media-ops/
 ## 5. 常用操作
 
 ```bash
-cd ~/Desktop/self-media-ops
+cd ~/Desktop/we-media-ops
 git add -A && git commit -m "描述" && git push
 cat project-management/TASK_STATUS.md
 ```
