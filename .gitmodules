@@ -9,4 +9,4 @@
 	url = git@github.com:byte886/video-studio.git
 [submodule "deps/pipeline"]
 	path = deps/pipeline
-	url = git@github.com:byte886/multiplatform-content-pipeline.git
+	url = git@github.com:byte886/content-pipeline.git

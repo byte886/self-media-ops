@@ -2,7 +2,7 @@
 
 > **文档类型**：Governance（方向层）
 > **维护者**：人拍板，AI执行
-> **定位**：管"做什么、优先级"；系统怎么转见 `multiplatform-content-pipeline/docs/SYSTEM_ARCHITECTURE.md`
+> **定位**：管"做什么、优先级"；系统怎么转见 `content-pipeline/docs/SYSTEM_ARCHITECTURE.md`
 
 ---
 
